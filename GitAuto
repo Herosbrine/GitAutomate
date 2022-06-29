@@ -17,6 +17,9 @@ def main():
             with open("GitAuto.txt", "a") as f:
                 f.write("Another day, another commit\n")
             GitAuto()
+            with open("GitAuto.txt", "a") as f:
+                f.write("Another day, another commit\n")
+            GitAuto()
             Previousday = time.time()
 
 main()
