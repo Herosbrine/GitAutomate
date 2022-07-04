@@ -10,7 +10,7 @@ def GitAuto():
     repo.git.push()
 
 def main():
-    day = 86400
+    day = 10
     Previousday = time.time()
     while (1):
         if (time.time() - Previousday > day):
